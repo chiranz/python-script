@@ -16,8 +16,4 @@ for i in range(1,1001):
     else:
         pass
 
-total = 0
-for item in number:
-    total += item
-
-print(total)
+print(sum(number))
